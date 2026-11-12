@@ -48,7 +48,6 @@
 #include <Keypad.h>             // Lectura del teclado matricial
 #include <LiquidCrystal_I2C.h>  // Control de la pantalla LCD mediante I2C
 #include <WiFi.h>               // Conexión del ESP32 a redes Wi-Fi
-#include <WebServer.h>          // Implementación del servidor web alojado en el ESP32
 #include <time.h>               // Gestión de fecha y hora mediante funciones de tiempo
 #include <HTTPClient.h>         // Envio HTTPS a Google Apps Script
 #include <WiFiClientSecure.h>   // Cliente HTTPS para Google
