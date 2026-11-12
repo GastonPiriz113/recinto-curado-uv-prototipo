@@ -159,8 +159,8 @@ const long GMT_OFFSET_SEC = -3L * 3600L;  // Corrección por zona horaria
 const int DAYLIGHT_OFFSET_SEC = 0;        // Corrección por horario de verano
 
 // --- Configuración de Google Apps Script: destino del historial de ciclos ---
-const char* URL_GOOGLE_SCRIPT = "https://script.google.com/macros/s/AKfycbx9rASHUkRCK0bJ4usU8r1SvGl35U7SPOPvP6PgMMIT7-k6d78Q2ZMFdNG3F_KoQBxv/exec";
-const char* TOKEN_SECRETO = "RECINTO_UV_PROTOTIPO";
+const char* URL_GOOGLE_SCRIPT = "URL/exec";
+const char* TOKEN_SECRETO = "TOKEN_SECRETO";
 
 // --- Servidor web ---
 WebServer servidor(80);  // Instancia del servidor HTTP del ESP32, utilizando el puerto 80
